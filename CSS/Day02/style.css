@@ -1,0 +1,38 @@
+h1 {
+    background-color: grey;
+    height: 300px;
+    width: 300px;
+
+    /* border-width: 10px;
+    border-style: solid;
+    border-color: black; */
+
+    /* shorthand property */
+    border: 10px solid black; /*You can write in any order*/
+
+    padding: 10px;
+
+    /* padding-top: 20px;
+    padding-right: 5px;
+    padding-bottom: 25px;
+    padding-left: 30px; */
+
+    /* shorthand property -*/
+    padding: 20px 5px 25px 30px;
+    margin: 10px;
+
+    border-radius: 30px;
+
+}
+
+h2 {
+    background-color: pink;
+    border: 2px solid purple;
+}
+
+p {
+    background-color: powderblue;
+    padding: 20px;
+    border: 5px solid blue;
+    margin: 30px;
+}
