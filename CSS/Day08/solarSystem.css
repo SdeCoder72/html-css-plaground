@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.952);
+    overflow: hidden;
+}
+
+
+.container {
+    width: 1500px;
+    height: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -400px;
+    left: -500px;
+    background-color: rgba(0, 0, 0, 0.952);
+    animation: rotate 10s infinite;
+    animation-timing-function: linear;
+    border-radius: 50%;
+    /* border: 2px solid yellow; */
+    
+}
+.box {
+    /* width: 30px;
+    height: 60px; */
+    /* background-color: yellow; */
+    position: absolute;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 900;
+    font-size: 0.8rem;
+    overflow:visible;
+    color: white;
+    animation: box 10s linear infinite;
+    
+}
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+        
+}
+
+@keyframes box {
+    from {
+        transform: rotate(0deg) ;
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+    
+}
+.sun {
+    font-size: 1.4rem;
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.mercury {
+    top: 870px;
+    width: 40px;
+    height: 40px;
+    background-color: grey;
+}
+.venus {
+    left: 950px;
+    width: 40px;
+    height: 40px;
+    background-color: goldenrod;
+}
+.earth {
+    right: 1030px;
+    width: 45px;
+    height: 45px; 
+    background-color: blue;
+}
+.mars {
+    bottom: 1120px;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.jupiter {
+    top: 1200px;
+    width: 53px;
+    height: 53px;
+    background-color: brown;
+}
+.saturn {
+    left: 1290px;
+    width: 50px;
+    height: 50px;
+    background-color: gold;
+}
+.uranus {
+    right: 1370px;
+    width: 45px;
+    height: 45px;
+    background-color: rgb(4, 95, 57);
+}
+.neptune {
+     bottom: 1450px;
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+}
