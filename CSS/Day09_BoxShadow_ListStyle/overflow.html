@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS overflow</title>
+    <style>
+        .para {
+            width: 30vw;
+            height: 40vh;
+            border: 2px solid black;
+            /* overflow: scroll; */
+            /* overflow: auto;
+            overflow-y: scroll;
+            overflow: auto; */
+            /* short hand property */
+            overflow: auto scroll;
+            /*          X    Y      */
+            /* white-space: nowrap; */
+            text-overflow: ellipsis;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="para">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis quae, facere quia omnis dignissimos dolorum sequi consequuntur sapiente ipsum nulla suscipit ratione reprehenderit modi voluptates, libero, iste totam? Quos esse temporibus a perspiciatis dolores ullam iure odio eius dolore maxime?
+    </div>
+</body>
+</html>
